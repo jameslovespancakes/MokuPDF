@@ -15,13 +15,13 @@ if readme_file.exists():
 
 setup(
     name="mokupdf",
-    version="1.0.0",
+    version="1.0.1",
     author="MokuPDF Team",
     author_email="mokupdf@example.com",
     description="MCP-compatible PDF reading server with intelligent file search and extraction",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/mokupdf/mokupdf",
+    url="https://github.com/jameslovespancakes/mokupdf",
     packages=find_packages(),
     keywords=["pdf", "mcp", "model-context-protocol", "ai", "llm", "claude", "pdf-reader", "text-extraction", "image-extraction"],
     classifiers=[

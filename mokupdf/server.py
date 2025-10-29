@@ -32,7 +32,7 @@ except ImportError:
     HAS_OCR = False
 
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 
 class SmartFileFinder:

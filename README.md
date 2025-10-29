@@ -114,12 +114,7 @@ Add MokuPDF to your MCP configuration file:
   "mcpServers": {
     "mokupdf": {
       "command": "python",
-      "args": ["-m", "mokupdf", "--port", "8000"],
-      "name": "MokuPDF",
-      "description": "PDF reading server with text and image extraction",
-      "env": {
-        "PYTHONUNBUFFERED": "1"
-      }
+      "args": ["-m", "mokupdf"]
     }
   }
 }
@@ -359,9 +354,7 @@ Options:
   "mcpServers": {
     "mokupdf": {
       "command": "python",
-      "args": ["-m", "mokupdf", "--base-dir", "./documents", "--max-file-size", "200"],
-      "name": "MokuPDF",
-      "description": "Advanced PDF processing with smart search and OCR"
+      "args": ["-m", "mokupdf", "--base-dir", "./documents", "--max-file-size", "200"]
     }
   }
 }

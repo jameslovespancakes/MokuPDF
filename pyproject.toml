@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mokupdf"
-version = "1.0.0"
+version = "1.0.1"
 description = "MCP-compatible PDF reading server with intelligent file search and extraction"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -65,10 +65,10 @@ ocr = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/mokupdf/mokupdf"
-Documentation = "https://github.com/mokupdf/mokupdf#readme"
-Repository = "https://github.com/mokupdf/mokupdf"
-Issues = "https://github.com/mokupdf/mokupdf/issues"
+Homepage = "https://github.com/jameslovespancakes/mokupdf"
+Documentation = "https://github.com/jameslovespancakes/mokupdf#readme"
+Repository = "https://github.com/jameslovespancakes/mokupdf"
+Issues = "https://github.com/jameslovespancakes/mokupdf/issues"
 
 [project.scripts]
 mokupdf = "mokupdf.server:main"
